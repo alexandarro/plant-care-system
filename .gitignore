@@ -1,0 +1,27 @@
+# ESP-IDF build files
+build/
+*.elf
+*.bin
+*.map
+*.hex
+
+# Hidden files and folders
+*.pyc
+*.pyo
+__pycache__/
+.DS_Store
+
+# SDK config
+sdkconfig
+sdkconfig.old
+
+# IDE and temp files
+.vscode/
+.idea/
+*.swp
+*.log
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
